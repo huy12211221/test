@@ -3,8 +3,9 @@ n = int(input("Nhập số nguyên dương n:"))
 c=math.sqrt(n)
 i=1
 d=0
+#hàm 
 while True:
-    if n==1:
+    if (n==1)or(n==0):
         break
     elif n%i==0:
         d=d+1
